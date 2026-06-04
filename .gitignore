@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+.env
+
+# Large model weights and training checkpoints exceed GitHub's 100 MB file limit.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pytorch_model.bin
+
+# Generated experiment artifacts. Keep these local; regenerate from configs.
+outputs/
+
+# Local Excel lock files and backup workbooks.
+~$*.xlsx
+*.before_*.xlsx
+
+# Editor/system noise.
+.DS_Store
+Thumbs.db
